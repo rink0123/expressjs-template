@@ -1,0 +1,34 @@
+{
+  "name": "expressjs-template",
+  "version": "1.0.0",
+  "description": "",
+  "author": "minsung-kang",
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "prod": "env NODE_ENV=prod node main.js",
+    "dev": "env NODE_ENV=dev nodemon main.js",
+    "debug": "DEBUG=http,express:* nodemon main.js",
+    "debug-windows": "set DEBUG=http,express:* & nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rink0123/expressjs-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rink0123/expressjs-template/issues"
+  },
+  "homepage": "https://github.com/rink0123/expressjs-template#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.1",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7",
+    "yarn": "^1.22.19"
+  }
+}
