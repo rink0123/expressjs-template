@@ -6,3 +6,6 @@ node_modules/
 
 # static files
 # public/
+
+# Yarn
+yarn-error.log
