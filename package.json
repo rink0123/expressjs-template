@@ -20,6 +20,9 @@
     "url": "https://github.com/rink0123/expressjs-template/issues"
   },
   "homepage": "https://github.com/rink0123/expressjs-template#readme",
+  "keywords": [
+    "yarn install"
+  ],
   "dependencies": {
     "cors": "^2.8.5",
     "dayjs": "^1.11.4",
