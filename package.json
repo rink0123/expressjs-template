@@ -1,8 +1,9 @@
 {
-  "name": "expressjs-template",
+  "name": "@scope/expressjs-template",
   "version": "1.0.0",
   "description": "",
   "author": "minsung-kang",
+  "private": true,
   "license": "MIT",
   "main": "main.js",
   "scripts": {
