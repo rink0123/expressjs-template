@@ -12,10 +12,7 @@
     "debug": "DEBUG=http,express:* nodemon main.js",
     "debug-windows": "set DEBUG=http,express:* & nodemon main.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rink0123/expressjs-template.git"
-  },
+  "repository": "git+https://github.com/rink0123/expressjs-template.git",
   "bugs": {
     "url": "https://github.com/rink0123/expressjs-template/issues"
   },
@@ -38,5 +35,12 @@
     "sequelize": "^6.21.3",
     "sequelize-cli": "^6.4.1",
     "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
   }
 }
